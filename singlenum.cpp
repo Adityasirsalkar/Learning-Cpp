@@ -15,11 +15,10 @@ int main(){
     int num;
     char choice;
 
-    // Taking input until the user stops
     do {
         cout << "Enter a number: ";
         cin >> num;
-        myVector.push_back(num);  // Add the number to the vector
+        myVector.push_back(num);  
 
         cout << "Do you want to enter another number? (y/n): ";
         cin >> choice;
